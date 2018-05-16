@@ -1,0 +1,9 @@
+kernel:
+  image: linuxkit/kernel:4.14.40
+  cmdline: "console=ttyS0"
+init:
+  - linuxkit/dhcpcd:v0.4
+  - tjfontaine/pivot-second-stage:latest-amd64
+trust:
+  org:
+    - linuxkit

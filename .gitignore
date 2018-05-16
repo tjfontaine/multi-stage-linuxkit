@@ -1,0 +1,5 @@
+first-stage-efi.img
+second-stage-kernel
+second-stage-cmdline
+second-stage-squashfs.img
+*-stamp
